@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/add_excel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="点击加载excel文件"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:background="@drawable/btn_pressed"
+        android:gravity="center"
+        android:textColor="@color/write"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/look_photo_num"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:background="@drawable/btn_pressed"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/add_excel"
+        android:textColor="@color/write"
+        android:text="照片数"
+        />
+    <TextView
+        android:id="@+id/tv_finish"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_pressed"
+        android:text="完成"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/look_photo_num"
+        android:textColor="@color/write"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
